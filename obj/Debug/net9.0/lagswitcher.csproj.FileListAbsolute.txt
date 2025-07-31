@@ -1,0 +1,14 @@
+C:\Users\notav\Documents\lagswitcher\bin\Debug\net9.0\lagswitcher.exe
+C:\Users\notav\Documents\lagswitcher\bin\Debug\net9.0\lagswitcher.deps.json
+C:\Users\notav\Documents\lagswitcher\bin\Debug\net9.0\lagswitcher.runtimeconfig.json
+C:\Users\notav\Documents\lagswitcher\bin\Debug\net9.0\lagswitcher.dll
+C:\Users\notav\Documents\lagswitcher\bin\Debug\net9.0\lagswitcher.pdb
+C:\Users\notav\Documents\lagswitcher\obj\Debug\net9.0\lagswitcher.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\notav\Documents\lagswitcher\obj\Debug\net9.0\lagswitcher.AssemblyInfoInputs.cache
+C:\Users\notav\Documents\lagswitcher\obj\Debug\net9.0\lagswitcher.AssemblyInfo.cs
+C:\Users\notav\Documents\lagswitcher\obj\Debug\net9.0\lagswitcher.csproj.CoreCompileInputs.cache
+C:\Users\notav\Documents\lagswitcher\obj\Debug\net9.0\lagswitcher.dll
+C:\Users\notav\Documents\lagswitcher\obj\Debug\net9.0\refint\lagswitcher.dll
+C:\Users\notav\Documents\lagswitcher\obj\Debug\net9.0\lagswitcher.pdb
+C:\Users\notav\Documents\lagswitcher\obj\Debug\net9.0\lagswitcher.genruntimeconfig.cache
+C:\Users\notav\Documents\lagswitcher\obj\Debug\net9.0\ref\lagswitcher.dll
