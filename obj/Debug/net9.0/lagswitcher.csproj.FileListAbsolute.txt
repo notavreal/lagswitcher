@@ -12,3 +12,4 @@ C:\Users\notav\Documents\lagswitcher\obj\Debug\net9.0\refint\lagswitcher.dll
 C:\Users\notav\Documents\lagswitcher\obj\Debug\net9.0\lagswitcher.pdb
 C:\Users\notav\Documents\lagswitcher\obj\Debug\net9.0\lagswitcher.genruntimeconfig.cache
 C:\Users\notav\Documents\lagswitcher\obj\Debug\net9.0\ref\lagswitcher.dll
+C:\Users\notav\Documents\lagswitcher\obj\Debug\net9.0\lagswitcher.sourcelink.json
