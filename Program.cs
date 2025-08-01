@@ -12,7 +12,7 @@ class Program
         var keyInfo = Console.ReadKey(intercept: true);
         BindKey = keyInfo.Key;
         Console.WriteLine($"\nYou pressed: {BindKey}");
-        Console.WriteLine("Time of network sleep: ");
+        Console.WriteLine("Time of network sleep: (In milliseconds)");
         int time = Convert.ToInt32(Console.ReadLine());
 
 
