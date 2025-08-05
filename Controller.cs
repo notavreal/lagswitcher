@@ -1,35 +1,28 @@
 using System.Diagnostics;
-using System.Threading;
+class InternetController
 
-public class InternetController
 {
-    public static void DisableInternet()
-    {
-        ExecuteNetshCommand("disable");
-    }
+    public static void Disable() => ToggleInternet(false);
+    public static void Enable() => ToggleInternet(true);
 
-    public static void EnableInternet()
+    private static void ToggleInternet(bool enable)
     {
-        ExecuteNetshCommand("enable");
-    }
+        string command = enable ?
+        $"Enable-NetAdapter -Name \"Ethernet\" -Confirm:$false" :
+        $"Disable-NetAdapter -Name \"Ethernet\" -Confirm:$false";
 
-    private static void ExecuteNetshCommand(string action)
-    {
         var process = new Process
         {
-            StartInfo = 
+            StartInfo = new ProcessStartInfo
             {
-                FileName = "netsh",
-                Arguments = $"interface set interface \"Ethernet\" {action}",
-                WindowStyle = ProcessWindowStyle.Hidden,
-                Verb = "runas"
+                FileName = "powershell.exe",
+                Arguments = $"-NoProfile -ExecutionPolicy Bypass -Command \"{command}\"",
+                Verb = "runas",
+                UseShellExecute = true,
+                WindowStyle = ProcessWindowStyle.Hidden
             }
         };
-        
         process.Start();
         process.WaitForExit();
-        
-        if (process.ExitCode != 0)
-            throw new Exception($"Ошибка (код: {process.ExitCode}). Запустите от имени администратора!");
     }
 }
