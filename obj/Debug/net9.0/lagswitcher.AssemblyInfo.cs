@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("lagswitcher")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b76d5d944e9f538e1bc9af14d2f09dd82a009190")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4be3a5475dc563e8f6998d8cdd184c0450091841")]
 [assembly: System.Reflection.AssemblyProductAttribute("lagswitcher")]
 [assembly: System.Reflection.AssemblyTitleAttribute("lagswitcher")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
